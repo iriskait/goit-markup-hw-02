@@ -42,12 +42,20 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.header-menu-item .link.hover,
+.header-menu-item .link.focus {
+    color: #2e2f42;
+}
 
-.header-adress-link .link.hover,
-.header-adress-link .link.focus {
+.header-adress-link {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    color: #434455;
+}
+
+.header-adress-link .link.hover,
+.header-adress-link .link.focus {
     color: #434455;
 }
 
@@ -138,4 +146,3 @@ button {
         color: #f4f4fd;
     }
 
-    
