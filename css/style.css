@@ -1,6 +1,25 @@
 .body {
     font-family: "Roboto", sans-serif;
-        background-color: var(--white);
+        background-color: white;
 }
 
+button {
+    cursor: pointer;
+}
 
+.header-logo {
+    font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        text-transform: uppercase;
+        color: #2e2f42;
+}
+.header-logo-web {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+     color: #4d5ae5;
+}
