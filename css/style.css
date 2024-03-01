@@ -35,22 +35,24 @@ button {
     color: #4d5ae5;
 }
 
-.header-menu-item {
+.header-menu-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.header-menu-item-link:hover,
-.header-menu-item-link:focus {
+.header-menu-link .link:hover {
+    color: #404bbf;
+}
+.header-menu-link .link:focus {
     color: #404bbf;
 }
 
 .header-address {
     font-style: normal;
 }
-.header-address-item {
+.header-address-link {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -58,8 +60,10 @@ button {
     color: #434455;
 }
 
-.header-address-item-link:hover,
-.header-address-item-link:focus {
+.header-address-link .link:hover {
+    color: #404bbf;
+}
+.header-address-link .link:focus {
     color: #404bbf;
 }
 
@@ -76,6 +80,7 @@ button {
 }
 
 .hero-btn {
+    background-color: #4D5AE5
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -84,7 +89,9 @@ button {
         color: #fff;
 }
 
-.hero-btn .link:hover,
+.hero-btn .link:hover {
+    background-color: #404BBF;
+}
 .hero-btn .link:focus {
     background-color: #404BBF;
 }
