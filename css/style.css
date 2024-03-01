@@ -85,8 +85,8 @@ button {
         color: #fff;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-btn-link:hover,
+.hero-btn-link:focus {
     background-color: #404BBF;
 }
 
