@@ -42,8 +42,8 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.header-menu-link-link:hover,
-.header-menu-link-link:focus {
+.header-menu-link .link:hover,
+.header-menu-link .link:focus {
     color: #404bbf;
 }
 
@@ -58,8 +58,8 @@ button {
     color: #434455;
 }
 
-.header-address-link-link:hover,
-.header-address-link-link:focus {
+.header-address-link .link:hover,
+.header-address-link .link:focus {
     color: #404bbf;
 }
 
@@ -85,8 +85,8 @@ button {
         color: #fff;
 }
 
-.hero-btn-link:hover,
-.hero-btn-link:focus {
+.hero-btn .link:hover,
+.hero-btn .link:focus {
     background-color: #404BBF;
 }
 
